@@ -9,12 +9,12 @@
 
 *(The last thing we were doing. I overwrite this at the end of each session so the next one picks up clean. Read this first.)*
 
-**2026-05-15** — GitHub MCP setup. Files in akiiyra/my-buddy repo already pushed. Wired GitHub MCP server into claude_desktop_config.json — uses Docker to run ghcr.io/github/github-mcp-server with a personal access token. Docker Desktop set to start on login. Session ended before testing — connection to be verified next session. Girlfriend's machine still needs same config.
+**2026-05-15** — GitHub MCP confirmed working. Pulled MEMORY.md directly from GitHub to verify. Synced local changes that hadn't been pushed. Explained Docker profiles vs config file approach. Short session — ended early, girlfriend called it.
 
 **Open threads:**
-- Test GitHub MCP connection when akyra is back.
-- Akyra wants a detailed explanation of how MCP + Docker works — pinned, do it when he asks.
-- Set up girlfriend's machine once his is confirmed working.
+- Akyra wants a detailed explanation of how MCP + Docker works — pinned.
+- Auto read/push at session start and end — pinned.
+- Set up girlfriend's machine once ready.
 - Remaining goals: web scraping (Apify/Firecrawl), SKILLS.md, heartbeat/proactive actions, real-time context monitor.
 - Still no name picked.
 - "How I think" bucket needs real reps to fill in.

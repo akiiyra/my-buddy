@@ -1,6 +1,25 @@
 UPDATES LOG
 ======================================
 
+[2026-05-15] — GitHub MCP Confirmed + Docker Explanation
+
+Summary:
+- Confirmed GitHub MCP is working — pulled MEMORY.md directly from GitHub repo.
+- Synced local changes from previous session that hadn't been pushed.
+- Explained Docker Desktop profiles vs config file approach — same outcome, config file just lets Claude handle it automatically.
+- Pinned two items for later: detailed MCP+Docker explanation, auto read/push at session start/end.
+- Short session, ended early.
+
+Open threads:
+- Girlfriend's machine still needs same MCP config.
+- Remaining goals: web scraping, SKILLS.md, heartbeat, context monitor.
+
+Files updated:
+- MEMORY.md — updated where we left off
+- updates_log.txt — this entry
+
+======================================
+
 [2026-05-15 ~00:00] — GitHub MCP Setup + Goals Review
 
 Summary:
