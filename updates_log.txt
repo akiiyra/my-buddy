@@ -1,6 +1,30 @@
 UPDATES LOG
 ======================================
 
+[2026-05-15 ~00:00] — GitHub MCP Setup + Goals Review
+
+Summary:
+- Reviewed goals.txt — file was a cloud-only OneDrive placeholder (0 bytes locally). Akyra uninstalled OneDrive, so content was unreachable. Akyra pasted the content manually.
+- Goals identified: web scraping (Apify/Firecrawl), GitHub file access for collab, SKILLS.md, heartbeat/proactive actions, real-time context monitor.
+- Decided on GitHub MCP server (github/github-mcp-server) over Codespaces — simpler, does the job.
+- Core goal: real-time collab between akyra (terminal) and girlfriend (Claude desktop), both reading/writing the same md files via GitHub repo.
+- Repo already existed and was connected: akiiyra/my-buddy.
+- Wired GitHub MCP into claude_desktop_config.json with personal access token and Docker runner.
+- Docker Desktop set to start on login.
+- Session ended before testing the connection — to be verified next session.
+
+Open threads:
+- Test GitHub MCP connection on Claude desktop restart.
+- Akyra wants a detailed explanation of how the MCP/Docker setup works — pinned for later.
+- Still need to set up girlfriend's machine with same config.
+- Remaining goals not yet touched: web scraping, SKILLS.md, heartbeat, context monitor.
+
+Files updated:
+- claude_desktop_config.json — added GitHub MCP server config
+- updates_log.txt — this entry
+
+======================================
+
 [2026-05-14 22:23] — Memory Architecture Cleanup
 
 Summary:

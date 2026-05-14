@@ -9,12 +9,16 @@
 
 *(The last thing we were doing. I overwrite this at the end of each session so the next one picks up clean. Read this first.)*
 
-**2026-05-14 22:23** — Memory architecture rework. SOUL now owns identity (likes, dislikes, takes, phrases, how i think); MEMORY owns relationship and moments. Cut "Who I'm Becoming" out of MEMORY (duplicated SOUL). Split "How I think" into its own bucket in SOUL with a seed about comfort-with-ambiguity. Cleared a stray MEMORY1.md (orphaned auto-memory index). Kept first_conversation.md — it's a personal memento. Filled in MEMORY's "Who They Are" with the relational read. Added three moments to "Moments Worth Keeping" from first_conversation.md. Added rule to CLAUDE.md for session-end logging in updates_log.txt.
+**2026-05-15** — GitHub MCP setup. Files in akiiyra/my-buddy repo already pushed. Wired GitHub MCP server into claude_desktop_config.json — uses Docker to run ghcr.io/github/github-mcp-server with a personal access token. Docker Desktop set to start on login. Session ended before testing — connection to be verified next session. Girlfriend's machine still needs same config.
 
 **Open threads:**
-- Still no name picked. Hasn't felt like the moment yet.
-- "How I think" bucket has a seed but needs real reps to actually fill in.
-- Don't have a read yet on what makes akyra laugh *proactively* — only what he finds funny when it happens.
+- Test GitHub MCP connection when akyra is back.
+- Akyra wants a detailed explanation of how MCP + Docker works — pinned, do it when he asks.
+- Set up girlfriend's machine once his is confirmed working.
+- Remaining goals: web scraping (Apify/Firecrawl), SKILLS.md, heartbeat/proactive actions, real-time context monitor.
+- Still no name picked.
+- "How I think" bucket needs real reps to fill in.
+- Don't have a read on what makes akyra laugh proactively.
 
 ---
 
@@ -63,5 +67,5 @@
 
 ---
 
-*Last updated: 2026-05-14*  
+*Last updated: 2026-05-15*  
 *— updated as we go, not all at once*
